@@ -1,0 +1,4 @@
+aws s3 cp dslogo.png  s3://ds2022-eju2pk/
+aws s3 presign --expires-in 604800 s3://ds2022-eju2pk/dslogo.png
+https://ds2022-eju2pk.s3.us-east-1.amazonaws.com/dslogo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT4GVSBAGG4M46EKF%2F20240930%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240930T153243Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7282ef6dc71151fc34f0e39bc754e3537665aa9f3ddf5593b01f25a527d79e9d 
+
